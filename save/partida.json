@@ -1,0 +1,169 @@
+{
+    "pecas": [
+        {
+            "tipo": "rook",
+            "cor": 1,
+            "posicao": "00"
+        },
+        {
+            "tipo": "horse",
+            "cor": 1,
+            "posicao": "01"
+        },
+        {
+            "tipo": "bishop",
+            "cor": 1,
+            "posicao": "02"
+        },
+        {
+            "tipo": "queen",
+            "cor": 1,
+            "posicao": "03"
+        },
+        {
+            "tipo": "king",
+            "cor": 1,
+            "posicao": "04"
+        },
+        {
+            "tipo": "bishop",
+            "cor": 1,
+            "posicao": "05"
+        },
+        {
+            "tipo": "horse",
+            "cor": 1,
+            "posicao": "06"
+        },
+        {
+            "tipo": "rook",
+            "cor": 1,
+            "posicao": "07"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "10"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "11"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "12"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "13"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "14"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "15"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "16"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 1,
+            "posicao": "37"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "44"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "60"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "61"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "62"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "63"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "65"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "66"
+        },
+        {
+            "tipo": "pawn",
+            "cor": 0,
+            "posicao": "67"
+        },
+        {
+            "tipo": "rook",
+            "cor": 0,
+            "posicao": "70"
+        },
+        {
+            "tipo": "horse",
+            "cor": 0,
+            "posicao": "71"
+        },
+        {
+            "tipo": "bishop",
+            "cor": 0,
+            "posicao": "72"
+        },
+        {
+            "tipo": "queen",
+            "cor": 0,
+            "posicao": "73"
+        },
+        {
+            "tipo": "king",
+            "cor": 0,
+            "posicao": "74"
+        },
+        {
+            "tipo": "bishop",
+            "cor": 0,
+            "posicao": "75"
+        },
+        {
+            "tipo": "horse",
+            "cor": 0,
+            "posicao": "76"
+        },
+        {
+            "tipo": "rook",
+            "cor": 0,
+            "posicao": "77"
+        }
+    ],
+    "turno": 2,
+    "historico": [
+        "Pb6444",
+        "Pp1737"
+    ]
+}
