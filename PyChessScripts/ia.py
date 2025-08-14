@@ -65,7 +65,7 @@ class IA:
                     if not moveset:
                         continue
 
-                    # Poda: Ordena movimentos por relevância e mantém só os 3 melhores
+                    # Poda: Simula apenas os 5 melhores movimentos
                     moveset.sort(key = lambda m: self.valor_movimento(posicao, m), reverse = True)
                     moveset = moveset[:5]
 
@@ -120,7 +120,7 @@ class IA:
                                                         continue
 
                                                     moveset_3.sort(key = lambda m: self.valor_movimento(posicao_3, m), reverse = True)
-                                                    moveset_3 = moveset_3[:3]
+                                                    moveset_3 = moveset_3[:1]
 
                                                     copia_profundidade_3 = self.copiar_tabuleiro_e_flags()
                                                     for y in moveset_3:
@@ -167,7 +167,7 @@ class IA:
 
         valor = 0
 
-        # Captura de peças (ou xeque)
+        # Captura de peças
         peca_destino = self.get_peca(destino)
         if peca_destino != None:
             nome = type(peca_destino).__name__.upper()
@@ -199,6 +199,24 @@ class IA:
         (peca_origem.cor == 0 and int(origem[0]) == 7) or
         (peca_origem.cor == 1 and int(origem[0]) == 0)):
             valor += 6
+
+        # Salva estado atual do xeque
+        estado_xeque_branco = self.rei_branco_check
+        estado_xeque_preto = self.rei_preto_check
+
+        # Verifica se o movimento é xeque
+        self.criar_copia_tabuleiro_copiado()
+        self.posiciona_peca_copiado(peca_origem, destino)
+        self.posiciona_peca_copiado(None, origem)
+        self.verificar_xeque()
+        if peca_origem.cor == 0 and self.rei_preto_check == 1:
+                valor += 50
+        elif peca_origem.cor == 1 and self.rei_branco_check == 1:
+                valor += 50
+
+        # Restaura estado original
+        self.rei_branco_check = estado_xeque_branco
+        self.rei_preto_check = estado_xeque_preto
 
         return valor
 
