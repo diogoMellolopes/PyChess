@@ -2,7 +2,7 @@
 
 Um projeto completo de xadrez em Python com todas as regras oficiais, interface gráfica moderna e opção de jogar contra uma IA treinada com Q-Learning.
 
-![Interface do jogo](assets/interface.png)
+![Interface do jogo](PyChessScripts/assets/interface.png)
 
 
 ## 🚀 Funcionalidades
@@ -29,8 +29,17 @@ pip install -r requirements.txt
 
 ## ▶️ Como executar
 
+# Primeira forma
+
+1. Baixe o projeto inteiro.
+2. Abra o terminal e navegue até a pasta "PyChessScripts".
+3. Dentro da pasta, digite um dos comandos, para selecionar o modo de jogo:
 Jogar contra a IA:
 -   python jogador_vs_ia.py
-
 IA contra IA:
 -   python ia_vs_ia.py
+
+# Segunda forma
+
+1. Baixe o projeto inteiro.
+2. Apenas rode os atalhos dos executáveis correspondentes.
