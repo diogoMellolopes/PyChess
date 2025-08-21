@@ -31,15 +31,14 @@ pip install -r requirements.txt
 
 # Primeira forma
 
-1. Baixe o projeto inteiro.
+1. Baixe o release do projeto.
+2. Instale as dependências.
 2. Abra o terminal e navegue até a pasta "PyChessScripts".
 3. Dentro da pasta, digite um dos comandos, para selecionar o modo de jogo:
-Jogar contra a IA:
--   python jogador_vs_ia.py
-IA contra IA:
--   python ia_vs_ia.py
+- Jogar contra a IA: python jogador_vs_ia.py
+- IA contra IA: python ia_vs_ia.py
 
 # Segunda forma
 
-1. Baixe o projeto inteiro.
-2. Apenas rode os atalhos dos executáveis correspondentes.
+1. Baixe o release do projeto.
+2. Navegue dentro da pasta "Distrubuição", e rode os executáveis.
