@@ -4,16 +4,18 @@ Um projeto completo de xadrez em Python com todas as regras oficiais, interface 
 
 ![Interface do jogo](PyChessScripts/assets/interface.png)
 
+---
 
 ## Funcionalidades
 
-• Regras oficiais do xadrez: roque, en passant, promoção de peões
-• Detecção automática de xeque e xeque-mate
-• Interface gráfica moderna com PyQt5
-• Histórico de jogadas e opção de desfazer movimentos
-• Salvar e carregar partidas
-• Modo PvE (jogador contra IA)
+- Regras oficiais do xadrez: roque, en passant, promoção de peões
+- Detecção automática de xeque e xeque-mate
+- Interface gráfica moderna com PyQt5
+- Histórico de jogadas e opção de desfazer movimentos
+- Salvar e carregar partidas
+- Modo PvE (jogador contra IA)
 
+---
 
 ## Tecnologias e Bibliotecas
 
@@ -26,10 +28,11 @@ Instale as dependências com:
 
 pip install -r requirements.txt
 
+---
 
 ## Como executar
 
-# Primeira forma
+### Primeira forma
 
 1. Baixe o release do projeto.
 2. Instale as dependências.
@@ -38,7 +41,7 @@ pip install -r requirements.txt
 - Jogar contra a IA: python jogador_vs_ia.py
 - IA contra IA: python ia_vs_ia.py
 
-# Segunda forma
+### Segunda forma
 
 1. Baixe o release do projeto.
 2. Navegue dentro da pasta "Distrubuição", e rode os executáveis.
@@ -46,3 +49,9 @@ pip install -r requirements.txt
 # Atenção
 
 O Windows pode porventura acabar classificando como potencialmente danoso na hora da execução. Apenas clique em mais informações e executar assim mesmo.
+
+---
+
+## Autor
+
+Diogo de Mello
