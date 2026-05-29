@@ -26,7 +26,9 @@ O projeto foi desenvolvido em **Python 3.13** utilizando:
 
 Instale as dependências com:
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -38,8 +40,15 @@ pip install -r requirements.txt
 2. Instale as dependências.
 2. Abra o terminal e navegue até a pasta "PyChessScripts".
 3. Dentro da pasta, digite um dos comandos, para selecionar o modo de jogo:
-- Jogar contra a IA: python jogador_vs_ia.py
-- IA contra IA: python ia_vs_ia.py
+
+```bash
+# Para rodar o modo contra a IA
+python -m jogador_vs_ia.py
+
+# Para rodar o modo IA contra IA
+python -m ia_vs_ia.py
+
+```
 
 ### Segunda forma
 
