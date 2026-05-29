@@ -1,23 +1,23 @@
-# ♟️ Jogo de Xadrez em Python
+# Jogo de Xadrez em Python
 
 Um projeto completo de xadrez em Python com todas as regras oficiais, interface gráfica moderna e opção de jogar contra uma IA treinada com Q-Learning.
 
 ![Interface do jogo](PyChessScripts/assets/interface.png)
 
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-✅ Regras oficiais do xadrez: roque, en passant, promoção de peões
-✅ Detecção automática de xeque e xeque-mate
-✅ Interface gráfica moderna com PyQt5
-✅ Histórico de jogadas e opção de desfazer movimentos
-✅ Salvar e carregar partidas
-✅ Modo PvE (jogador contra IA)
+• Regras oficiais do xadrez: roque, en passant, promoção de peões
+• Detecção automática de xeque e xeque-mate
+• Interface gráfica moderna com PyQt5
+• Histórico de jogadas e opção de desfazer movimentos
+• Salvar e carregar partidas
+• Modo PvE (jogador contra IA)
 
 
-## 🛠️ Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
-O projeto está desenvolvido em **Python 3.13** utilizando:
+O projeto foi desenvolvido em **Python 3.13** utilizando:
 
 - [`PyQt5`](https://pypi.org/project/PyQt5/) – interface gráfica profissional moderna
 - [`json`](https://docs.python.org/3/library/json.html) – salvar/abrir estados de jogo
@@ -27,7 +27,7 @@ Instale as dependências com:
 pip install -r requirements.txt
 
 
-## ▶️ Como executar
+## Como executar
 
 # Primeira forma
 
@@ -42,3 +42,7 @@ pip install -r requirements.txt
 
 1. Baixe o release do projeto.
 2. Navegue dentro da pasta "Distrubuição", e rode os executáveis.
+
+# Atenção
+
+O Windows pode porventura acabar classificando como potencialmente danoso na hora da execução. Apenas clique em mais informações e executar assim mesmo.
