@@ -215,7 +215,7 @@ def main():
     app = QApplication(sys.argv)
     caminho_icone = os.path.join(CAMINHO_ASSETS, "icone.ico").replace("\\", "/")
     app.setWindowIcon(QIcon(caminho_icone))
-    janela = MainWindow() 
+    janela = MenuWindow()
     janela.setWindowIcon(QIcon(caminho_icone))
     janela.show()
     sys.exit(app.exec_())
