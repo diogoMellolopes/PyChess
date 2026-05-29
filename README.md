@@ -46,7 +46,7 @@ pip install -r requirements.txt
 1. Baixe o release do projeto.
 2. Navegue dentro da pasta "Distrubuição", e rode os executáveis.
 
-# Atenção
+## Atenção
 
 O Windows pode porventura acabar classificando como potencialmente danoso na hora da execução. Apenas clique em mais informações e executar assim mesmo.
 
